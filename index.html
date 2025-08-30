@@ -1,0 +1,129 @@
+<!DOCTYPE html>      <html>      
+  <head>      
+    <meta charset="UTF-8">      
+    <meta name="viewport"      
+    content="width=device-width, initial-scale=1.0">      
+    <title>Yasmine</title>      
+    <link rel="stylesheet" href="style.css">      
+  </head>      
+  <body>      
+    <h1>HOME-OF-HOPE</h1>      
+    <header>      
+      <nav>      
+        <a href="#home">Home</a>      
+        <a href="#About-us">About-us</a>      
+        <a href="#Contact">Contact</a>      
+      </nav>      
+   </header> 
+   <table>      
+     <tr>      
+       <th>Lamborghini</th>      
+       <th>Bugatti</th>      
+       <th>Ferrari</th>      
+       <th>Tesla</th>      
+     </tr>      
+     <tr>      
+        <td>      
+          Lamborghini Aventador      
+          Lamborghini Gallardo       
+        </td>      
+        <td>      
+           Bugatti Veyron       
+           Bugatti Chiron       
+        </td>      
+        <td>      
+            Ferrari California      
+        </td>      
+        <td>Tesla model x</td>      
+     </tr>      
+   </table>      
+    <hr> 
+    <section id="About-us">
+      <h2>About-us</h2>
+      <p>Here we offer the best services as you can see on our page below</p>
+    </section>
+   <section id="Sales">      
+      <div class="fade-in">      
+       <h2>On sale</h2>      
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" class="fade-in"/>      
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"  class="fade-in"/>      
+       <article>      
+          <p>These are the new models part of our sells if you would like more info about these models fill in your message at the end</p>      
+        </article>      
+      <button type="submit">Love it</button>      
+     </div>      
+   </section>      
+   <details>      
+      <summary>More info</summary>      
+      <p>Our sales are only trusted in the hands of those willing to seek for buying and our products are the best for their material</p>      
+    </details><br><br>      
+    <section id="Electronics">      
+      <div class="fade-in">      
+      <h3>Electronics</h3>      
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"  class="fade-in"/>      
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" class="fade-in"/>      
+        <article>      
+           <p>Now these are the new devices you could get from our shop . these are got from their places they are made from 
+        </article>      
+        <button type="submit">I want </button>      
+     </div>      
+   </section>      
+   <section id="Cars">      
+      <div class="fade-in">      
+      <h3>Best cars</h3>      
+         <img src="pic1.jpg" class="fade-in"/>      
+         <img src="pic2.jpg" class="fade-in"/>      
+         <img src="pic3.jpg" class="fade-in"/>      
+         <img src="https://cdn.pixabay.com/photo/2014/05/02/21/50/laptop-336556_1280.jpg" class="fade-in"/>      
+         <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="Tree" class="fade-in"/>      
+          <article>      
+             <p>Now these are what I call the best of the best they have an engine that runs so fast and strong ,they don't take too much fuel while  in usage , if you would like to know more your lucky</p>      
+          </article>      
+          <a href="link"><a>      
+       </div>      
+      </section><br>      
+      <details>      
+        <h5>Read me</h5>      
+        <p>Hey customer it would be better if you click the link for more car images</p>      
+      </details><br>      
+      <section id="Clothes">      
+         <div class="fade-in">      
+         <h3>Clothes</h3>      
+            <img src="pic1.jpg" class="fade-in"/>      
+            <img src="pic2.jpg" class="fade-in"/>      
+            <article>      
+               <p>As usual we always provide the best of the best ❤️❤️👍</p>      
+             </article>      
+         </div>      
+      </section><br><br>      
+      <label for="Male">Male:</label>      
+       <input type="radio"id="male"      
+       name="gender" value="male"/>      
+      <label for="female">Female:</label>      
+       <input type="radio" id="female"      
+        name="gender" value="female"/>      <textarea id="message" name="message" rows="5" cols="20" placeholder="Write your message about our website"></textarea><br>      
+   <footer>      
+      <p>@2025 contact +256-745560561 for more info from our admin</p>      
+   </footer>
+
+  </body> 
+  <script>
+
+function handleScrollAnimations() {
+  const elements = document.querySelectorAll('section, .fade-in, .animated-slide');
+  const windowBottom = window.innerHeight;
+
+  elements.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < windowBottom - 50) { /
+      el.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('load', handleScrollAnimations);
+
+window.addEventListener('scroll', handleScrollAnimations);
+</script>
+</html>      
+ 
